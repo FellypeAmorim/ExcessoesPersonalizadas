@@ -14,7 +14,7 @@ namespace ResolvidoExcessoesPersonalizadas
             Console.Write("Check-out date (dd/MM/yyyy): ");
             DateTime checkout = DateTime.Parse(Console.ReadLine());
 
-            if(checkout <= checkin)
+            if (checkout <= checkin)
             {
                 Console.WriteLine("Error in reservation: check-out date must be after check-in");
             }
@@ -29,25 +29,23 @@ namespace ResolvidoExcessoesPersonalizadas
                 Console.Write("Check-out date (dd/MM/yyyy): ");
                 checkout = DateTime.Parse(Console.ReadLine());
 
-                DateTime now = DateTime.Now;
+                string error = reservation.UpdateDates(checkin, checkout);
 
-                if (checkin < now || checkout < now)
+                if (error != null)
                 {
-                    Console.WriteLine("Error in reservation: Reservation dates must be future dates");
-                }
-                else if (checkout <= checkin)
-                {
-                    Console.WriteLine("Error in reservation: check-out date must be after check-in");
+                    Console.WriteLine("Error in reservation: " + error);
                 }
                 else
-                {
-                    reservation.UpdateDates(checkin, checkout);
+                {                   
                     Console.WriteLine("Reservation: " + reservation);
                 }
             }
-            
 
             
         }
+
+
+
     }
 }
+

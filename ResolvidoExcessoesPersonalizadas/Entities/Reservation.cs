@@ -28,22 +28,35 @@ namespace ResolvidoExcessoesPersonalizadas.Entities
             return (int)duration.TotalDays;
         }
 
-        public void UpdateDates(DateTime checkin, DateTime checkout)
+        public string UpdateDates(DateTime checkin, DateTime checkout)
         {
+            DateTime now = DateTime.Now;
+
+            if (checkin < now || checkout < now)
+            {
+                return "Reservation dates must be future dates";
+            }
+            if (checkout <= checkin)
+            {
+                return "Check-out date must be after check-in";
+
+            }
+
             CheckIn = checkin;
             CheckOut = checkout;
+            return null;
         }
 
         public override string ToString()
         {
-            return "Room " 
-                + RoomNumber 
-                + ", check-in: " 
-                + CheckIn.ToString("dd/MM/yyyy") 
-                + ", check-out: " 
-                + CheckOut.ToString("dd/MM/yyyy") 
-                + ", " 
-                + Duration() 
+            return "Room "
+                + RoomNumber
+                + ", check-in: "
+                + CheckIn.ToString("dd/MM/yyyy")
+                + ", check-out: "
+                + CheckOut.ToString("dd/MM/yyyy")
+                + ", "
+                + Duration()
                 + " nights";
         }
     }
