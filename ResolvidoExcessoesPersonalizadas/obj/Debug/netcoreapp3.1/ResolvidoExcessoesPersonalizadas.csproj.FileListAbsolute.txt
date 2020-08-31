@@ -1,0 +1,13 @@
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.exe
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.deps.json
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.runtimeconfig.json
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.runtimeconfig.dev.json
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.dll
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\bin\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.pdb
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.csprojAssemblyReference.cache
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.csproj.CoreCompileInputs.cache
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.AssemblyInfoInputs.cache
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.AssemblyInfo.cs
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.dll
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.pdb
+C:\Users\gisel\Desktop\Projeto C#\ResolvidoExcessoesPersonalizadas\ResolvidoExcessoesPersonalizadas\obj\Debug\netcoreapp3.1\ResolvidoExcessoesPersonalizadas.genruntimeconfig.cache
