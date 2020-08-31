@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using ResolvidoExcessoesPersonalizadas.Entities.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,6 +18,12 @@ namespace ResolvidoExcessoesPersonalizadas.Entities
 
         public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
+            if (checkOut <= checkIn)
+            {
+                throw new DomainException("Check-out date must be after check-in");
+
+            } 
+
             RoomNumber = roomNumber;
             CheckIn = checkIn;
             CheckOut = checkOut;
@@ -28,23 +35,23 @@ namespace ResolvidoExcessoesPersonalizadas.Entities
             return (int)duration.TotalDays;
         }
 
-        public string UpdateDates(DateTime checkin, DateTime checkout)
+        public void UpdateDates(DateTime checkin, DateTime checkout)
         {
             DateTime now = DateTime.Now;
 
             if (checkin < now || checkout < now)
             {
-                return "Reservation dates must be future dates";
+                throw new DomainException("Reservation dates must be future dates");
             }
             if (checkout <= checkin)
             {
-                return "Check-out date must be after check-in";
+                throw new DomainException("Check-out date must be after check-in");
 
             }
 
             CheckIn = checkin;
             CheckOut = checkout;
-            return null;
+            
         }
 
         public override string ToString()
